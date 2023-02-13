@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a, li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.top-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50.5px;
+  background: #222;
+}
+
+#git-icon {
+  font-size: 34px;
+  color: #fff;  
+}
+
+.git-redirect {
+  display: flex;
+  align-items: center;
+  height: inherit;
+
+}
+
+.logo {
+  font-size: 23px;
+  color: #fff;
+}
+
+.criptografador {
+  width: 100vw;
+  height: 80%;
+  background: #313131;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+} 
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  text-align: center;
+  color: #fff;
+  width: 700px;
+}
+
+form h2 {
+  font-size: 30px;
+}
+
+form p {
+  font-size: 23px;
+}
+
+form input {
+  height: 50px;
+  width: 60%;
+  margin: 1% 0 2% 0;
+  padding: 2%;
+  font-weight: normal;
+  font-size: 1.2rem;
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  transition: .3s;
+}
+
+form input:hover {
+  background: #313131;
+}
+
+form button {
+  width: 220px;
+  height: 40px;
+  border: 1px solid #fff;
+  background: #313131;
+  transition: .3s;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #fff;
+  color: #222;
+  font-weight: bold;
+}
+
+.mensagemFinal {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.center {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  width: 650px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.subtitle::first-letter {
+  font-size: 50px;
+}
+
+.whatsit {
+  background: #222;
+}
+
+.title-w {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.subtitle-w {
+  width: 650px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .center, .center-reverse {
+    flex-direction: column;
+  }
+  .title, .title-w {
+    font-size: 6.4vw;
+  }
+  .subtitle, .subtitle-w {
+    font-size: 2.6vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .subtitle, .subtitle-w {
+    width: 99vw;
+    padding: 1rem;
+  }
+}
+
+.react {
+  color: #61DAFB;
+}
+
+.git {
+  color: #F05032;
+}
+
+.node {
+  color: #339933;
+} 
+
+.bootstrap {
+  color: #7952B3;
+}
+
+.cards-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 50px;
+}
+
+.card-simple {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  height: 400px;
+}
+
+.card-simple:hover {
+  transform: translateY(-10px);
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.subtitle-card {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.saibaMais {
+  text-align: center;
+  width: 120px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btnReact, .btnGit, .btnNode, .btnBootstrap {
+  background: #222;
+}
+
+.btnReact:hover {
+  background: #61DAFB;
+}
+
+.btnGit:hover {
+  background: #F05032;
+}
+
+.btnNode:hover {
+  background: #339933;
+}
+
+.btnBootstrap:hover {
+  background: #7952B3;
+}
+
+.box-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.box-center h2 {
+  font-size: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background: #333;
+  color: #fff;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
