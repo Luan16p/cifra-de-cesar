@@ -1,3 +1,12 @@
+<p align="center">
+    <a href="https://github.com/devicons/devicon/releases">
+        <img alt="GitHub release (latest by semver)" src="https://img.shields.io/github/v/release/devicons/devicon?color=%2360be86&label=Latest%20release&style=for-the-badge&sort=semver">
+    </a>
+    <a href="/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/devicons/devicon?color=%2360be86&style=for-the-badge">
+    </a>
+ </p>
+
 # Aplicativo de Cifra de Cesar
 
 Um aplicativo simples que converte mensagens em Cifra de Cesar com chave +7.
@@ -50,4 +59,3 @@ npm start
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
