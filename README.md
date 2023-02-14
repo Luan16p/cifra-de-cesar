@@ -32,13 +32,13 @@ Após ter o Node.js e o NPM instalados, siga os passos abaixo:
 - Clone este repositório em seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Luan16p/cifra-de-cesar.git
 ```
 
 - Acesse a pasta do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd cifra-de-cesar
 ```
 
 - Instale as dependências do projeto:
